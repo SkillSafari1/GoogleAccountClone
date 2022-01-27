@@ -1,0 +1,288 @@
+.container {
+    width: 1350px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Header Section */
+
+header {
+    padding: 10px 0px;
+    width: 100%;
+    box-shadow: 0px 5px 15px rgb(204, 204, 204);
+}
+
+.header_logo {
+    width: 100px;
+    height: auto;
+}
+
+.logo_support {
+    margin-left: 5px;
+    font-size: 22px;
+    color: rgb(73, 73, 73);
+}
+
+.header_nav {
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.header_nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0px 15px;
+}
+
+.header_btn {
+    margin-left: 400px;
+    width: 450px;
+}
+
+.header_btn a {
+    margin: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.header_btn_one {
+    color: dodgerblue;
+}
+
+.header_btn_one:hover {
+    background-color: rgb(212, 212, 212);
+}
+
+.header_btn_two {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.header_btn_two:hover {
+    background-color: rgb(17, 94, 172);
+}
+
+/* Title Section */
+
+.title {
+    margin-top: 50px;
+}
+
+.title_one {
+    width: 40%;
+    padding: 25px;
+}
+
+.title_one h1 {
+    font-size: 75px;
+}
+
+.title_two {
+    width: 50%;
+}
+
+.title_two video {
+    width: 80%;
+    margin: 10%;
+}
+
+/* Support Section */
+
+.support {
+    background-color: rgb(247, 247, 247);
+    margin-top: 75px;
+    border-top: 1.5px solid rgb(179, 179, 179);
+    border-bottom: 1px solid rgb(179, 179, 179);
+}
+
+.support_box {
+    width: 28%;
+    padding: 30px 30px;
+    margin: 0px auto;
+}
+
+.support_box h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.support_box p {
+    font-weight: 200;
+}
+
+.underline {
+    width: 30px;
+    height: 5px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.support_box_border {
+    border-left: 1.5px solid rgb(179, 179, 179);
+    border-right: 1.5px solid rgb(179, 179, 179);
+}
+
+/* Features Section / all the features */
+
+.features {
+    margin-top: 50px;
+}
+
+.features_img {
+    width: 20%;
+    margin: 0px auto;
+}
+
+.features_img img {
+    width: 80%;
+    margin: 10%;
+}
+
+.features_content {
+    width: 60%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.features_content h2 {
+    font-size: 50px;
+}
+
+.features_content p {
+    color: rgb(104, 104, 104);
+}
+
+.feature_buttons {
+    margin-top: 100px;
+}
+
+.features_button {
+    width: 33%;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 4px solid rgb(150, 150, 150);
+}
+
+.features_button a {
+    text-decoration: none;
+    color: black;
+}
+
+.features_button:hover {
+    border-bottom: 4px solid dodgerblue;
+}
+
+.features_text {
+    margin-top: 100px;
+    width: 30%;
+    padding: 50px;
+    color: rgb(97, 97, 97);
+    margin-top: 150px;
+}
+
+.features_video {
+    margin-top: 100px;
+    width: 60%;
+}
+
+
+.features_video video {
+    width: 80%;
+    margin: 0px 10%;
+}
+
+/* Account section */
+
+.account {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.account_content {
+    width: 35%;
+    margin: auto;
+}
+
+.account_content h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.account_content a {
+    display: block;
+    text-decoration: none;
+    color: dodgerblue;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 25px;
+    margin-top: 15px;
+}
+
+.account_content .login {
+    background-color: dodgerblue;
+    width: 50%;
+    color: white;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+.login:hover {
+    background-color: rgb(16, 94, 172);
+}
+
+/* Footer */
+
+.footer {
+    padding: 30px 0px;
+    background-color: aliceblue;
+}
+
+.footer h3 {
+    font-size: 28px;
+    color: rgb(107, 107, 107);
+}
+
+.footer_nav {
+    padding: 32px 10px;
+    margin-left: 30px;
+}
+
+.footer_nav a {
+    text-decoration: none;
+    color: rgb(146, 146, 146);
+    font-size: 18px;
+    margin: 5px 15px;
+}
+
+.footer_nav a:hover {
+    color: black;
+}
+
+.footer_help {
+    width: 25%;
+    padding: 32px 10px;
+    margin-left: 350px;
+    color: rgb(107, 107, 107);
+}
+
+.footer_help i {
+    font-size: 18px;
+}
+
+.footer_help small {
+    font-size: 18px;
+    margin-right: 20px;
+}
